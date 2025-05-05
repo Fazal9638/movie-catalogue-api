@@ -1,7 +1,6 @@
 <h1>Movie Catalogue API</h1>
 
 <p>A RESTful Spring Boot application to manage a movie catalog, allowing creation, updating, deletion, and querying of <strong>Movies</strong>, <strong>Directors</strong>, and <strong>Ratings</strong>.</p>
-<p>This project is part of the Kukri Sports technical test.</p>
 
 <hr/>
 
