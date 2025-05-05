@@ -20,6 +20,9 @@ import java.util.Date;
 import java.util.Optional;
 import java.util.UUID;
 
+/**
+ * Implementation of the MovieService interface providing CRUD operations for movies.
+ */
 @Service
 public class MovieServiceImpl implements MovieService {
 

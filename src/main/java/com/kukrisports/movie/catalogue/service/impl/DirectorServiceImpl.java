@@ -11,6 +11,9 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
+/**
+ * Implementation of the {@link DirectorService} interface, providing CRUD operations for managing directors in the movie catalog.
+ */
 @Service
 public class DirectorServiceImpl implements DirectorService {
     /**

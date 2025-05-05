@@ -10,8 +10,29 @@ import com.kukrisports.movie.catalogue.service.RatingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.*;
+import java.util.Date;
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
 import java.util.stream.Collectors;
+
+/**
+ * Implementation of the {@link RatingService} interface for managing movie ratings.
+ * <p>
+ * This service handles the business logic for creating, updating, deleting, and retrieving ratings for movies.
+ * It interacts with the {@link RatingRepository} and {@link MovieRepository} to persist data and perform necessary validations.
+ * </p>
+ * <p>
+ * The service throws {@link MovieCatalogRunTimeException} for invalid inputs, such as invalid movie ID, invalid rating value, etc.
+ * </p>
+ *
+ * @see RatingService
+ * @see Rating
+ * @see Movie
+ * @see RatingDTO
+ * @see MovieCatalogRunTimeException
+ * @author fazal.babaria
+ */
 
 @Service
 public class RatingServiceImpl implements RatingService {
