@@ -44,7 +44,7 @@ public class MovieController {
      * @param movie the movie details
      * @return the created movie wrapped in a response
      */
-    @PostMapping("/create-movie")
+    @PostMapping
     public ResponseModel<MovieDTO> createMovie(@RequestBody MovieDTO movie) {
         return new ResponseModel<>(movieService.createMovie(movie), HttpStatus.OK.value());
     }
@@ -56,7 +56,7 @@ public class MovieController {
      * @param movieDTO the updated movie data
      * @return the updated movie wrapped in a response
      */
-    @PutMapping("update-movie/{id}")
+    @PutMapping("/{id}")
     public ResponseModel<MovieDTO> updateMovie(@Valid @PathVariable UUID id, @Valid @RequestBody MovieDTO movieDTO) {
         return new ResponseModel<>(movieService.updateMovie(id, movieDTO), HttpStatus.OK.value());
     }
