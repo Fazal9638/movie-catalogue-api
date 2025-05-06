@@ -5,7 +5,7 @@ import com.kukrisports.movie.catalogue.model.DTO.MovieDTO;
 import com.kukrisports.movie.catalogue.model.common.PaginatedResponse;
 import com.kukrisports.movie.catalogue.model.common.ResponseModel;
 import com.kukrisports.movie.catalogue.service.MovieService;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

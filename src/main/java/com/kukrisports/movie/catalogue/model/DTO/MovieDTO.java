@@ -3,9 +3,9 @@ package com.kukrisports.movie.catalogue.model.DTO;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.kukrisports.movie.catalogue.model.Director;
 import com.kukrisports.movie.catalogue.model.Movie;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 import java.util.Date;
 import java.util.UUID;
