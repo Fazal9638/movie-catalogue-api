@@ -1,11 +1,11 @@
 package com.kukrisports.movie.catalogue.model.common;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.MappedSuperclass;
-import org.hibernate.annotations.JdbcTypeCode;
-import org.hibernate.type.SqlTypes;
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.MappedSuperclass;
+
+import org.hibernate.annotations.Type;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -33,7 +33,7 @@ public class CommonFields implements Serializable {
     private static final long serialVersionUID = -3049884834665292478L;
 
     @Id
-    @JdbcTypeCode(SqlTypes.UUID)
+    @Type(type = "uuid-char")
     @GeneratedValue
     private UUID id;
 

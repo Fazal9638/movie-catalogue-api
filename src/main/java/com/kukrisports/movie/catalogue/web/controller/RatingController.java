@@ -3,7 +3,7 @@ package com.kukrisports.movie.catalogue.web.controller;
 import com.kukrisports.movie.catalogue.model.DTO.RatingDTO;
 import com.kukrisports.movie.catalogue.model.common.ResponseModel;
 import com.kukrisports.movie.catalogue.service.RatingService;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.annotation.Validated;

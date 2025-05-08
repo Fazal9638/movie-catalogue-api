@@ -3,7 +3,7 @@ package com.kukrisports.movie.catalogue.web.controller;
 import com.kukrisports.movie.catalogue.exception.MovieCatalogRunTimeException;
 import com.kukrisports.movie.catalogue.exception.MovieNotFoundException;
 import com.kukrisports.movie.catalogue.model.common.ResponseModel;
-import jakarta.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
