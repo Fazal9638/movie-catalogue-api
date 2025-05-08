@@ -1,0 +1,9 @@
+com.kukrisports.movie.catalogue
+com.kukrisports.movie.catalogue.exception
+com.kukrisports.movie.catalogue.model
+com.kukrisports.movie.catalogue.model.common
+com.kukrisports.movie.catalogue.model.DTO
+com.kukrisports.movie.catalogue.repository
+com.kukrisports.movie.catalogue.service
+com.kukrisports.movie.catalogue.service.impl
+com.kukrisports.movie.catalogue.web.controller
