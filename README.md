@@ -20,7 +20,7 @@
   <li>Search movies by Director or Rating</li>
   <li>REST-based architecture</li>
   <li>Data persists across application restarts</li>
-  <li>Javadoc documentation</li>
+  <li>Javadoc documentation <a href="https://github.com/Fazal9638/movie-catalogue-api/tree/main/Documentation/javadoc">Click Here</a></li>
   <li>Ready for testing with H2 console</li>
 </ul>
 
